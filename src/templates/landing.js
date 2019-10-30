@@ -2,8 +2,9 @@ import React from 'react';
 import _ from 'lodash';
 
 import components, {Layout} from '../components/index';
+import { remarkForm } from 'gatsby-tinacms-remark'
 
-export default class Landing extends React.Component {
+class Landing extends React.Component {
     render() {
         return (
             <Layout {...this.props}>
@@ -18,3 +19,5 @@ export default class Landing extends React.Component {
         );
     }
 }
+
+export default remarkForm(Landing)

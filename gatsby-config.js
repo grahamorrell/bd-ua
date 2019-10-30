@@ -37,6 +37,15 @@ module.exports = {
                 pageContextProperty: `menus`,
                 menus: require('./src/data/menus.json'),
             }
+        },
+        {
+            resolve: 'gatsby-plugin-tinacms',
+            options: {
+                plugins: [
+                    "gatsby-tinacms-git",
+                    "gatsby-tinacms-remark",
+                ],
+            },
         }
     ]
 };
