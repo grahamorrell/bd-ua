@@ -3,13 +3,13 @@
   "palette": "blue",
   "header": {
     "title": "Azimuth",
-    "logo_img": "images/logo.png",
+    "logo_img": "/images/bg18yw8f_400x400.jpg",
     "has_nav": true,
     "menu": {
       "actions": [
         {
-          "label": "Sign Up",
-          "url": "/signup"
+          "label": "Contact",
+          "url": "/contact"
         }
       ]
     }
